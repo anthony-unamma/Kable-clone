@@ -1,0 +1,68 @@
+
+/* Tablet mode */
+@media (max-width: 992px) {
+    /*Navbar adjustments*/
+    .container {
+        width: 80%;
+    }
+    #mobile-menu-icon {
+        display: block;
+    }
+    #nav-button {
+        display: none;
+    }
+    .navlink {
+        display: none;
+    }
+    .container.navbar img {
+        width: 100px;
+        height: 40px;
+    }
+
+    /*hero section adjustments*/
+    #hero-section {
+        flex-direction: column;
+    }
+    #hero-image {
+        margin-right: 0;
+    }
+
+    /*features section adj*/
+    #feature-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .features-card-div {
+        width: 70%;
+        margin-bottom: 9rem;
+        height: 470px;
+    }
+    .feature-img {
+        width: 300px;
+    }
+    .feature-header {
+        width: 100%;
+    }
+}
+
+/*Phones below*/
+@media (max-width: 576px) {
+    .container {
+        width: 90%
+    }
+    h1 {
+        font-size: 3rem;
+    }
+
+    /*Features adj*/
+    .features-card-div {
+        margin-bottom: 7rem;
+    }
+    .feature-img {
+        width: 250px;
+    }
+    #feature-list {
+        gap: 0rem;
+    }
+}
