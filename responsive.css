@@ -58,6 +58,7 @@
     /*Features adj*/
     .features-card-div {
         margin-bottom: 7rem;
+        width: 85%;
     }
     .feature-img {
         width: 250px;
