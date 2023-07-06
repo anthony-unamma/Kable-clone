@@ -21,15 +21,24 @@ h2 {
     font-size: 2.5rem;
     margin: 0;
 }
+h3 {
+    margin: 0;
+    font-size: 1.6rem;
+}
 h4 {
     font-size: 1.4rem;
     margin: 0;
 }
 
 p {
+    font-size: 1.2rem;
     margin: 0;
 }
 
+.small-p{
+    font-size: 1rem;
+    color: var(--light-text);
+}
 
 
 
@@ -88,6 +97,7 @@ p {
     padding: 16px 36px;
     border-radius: 8px;
     font-weight: 500;
+    width: fit-content;
 }
 .button:hover {
     background-color: var(--text);
@@ -132,13 +142,12 @@ img {
     align-items: center;
     gap: 48px;
 }
-#hero-image {
-    margin-right: -20%;
-}
+
 
 /*Features section*/
 #features {
     margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .container.features {
@@ -191,7 +200,105 @@ img {
     width: 100%;
     display: flex;
     gap: 3rem;
+    margin-bottom: 9rem;
 }
 .feature-header {
     width: 60%;
+}
+
+/* Feature details */
+.feat-details {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 10rem;
+}
+.head-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.head-text p {
+    color: var(--light-text);
+}
+.check-icon {
+    width: 32px;
+    height: 32px;
+}
+.feature-text-icon {
+    display: flex;
+    gap: 3rem;
+    width: 70%;
+}
+.text-section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.feat-details-img {
+    display: flex;
+    align-items: center;
+}
+
+/*three lines of code section*/
+#three-code-flex {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+}
+#three-code-flex p {
+    color: var(--light-text);
+}
+#three-img {
+    width: 48%;
+}
+
+.head-text.three {
+    order: 1;
+}
+#three-code {
+    margin-bottom: 9rem;
+}
+
+/*Comparison section*/
+#compare-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 10rem;
+}
+.compare-head {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+.com-head-cont {
+    max-width: 200px;
+    padding: 1rem;
+    text-align: center;
+}
+.title {
+    padding: 16px;
+    max-width: 200px;
+}
+.title p {
+    font-size: 1rem;
+}
+.comp-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--sec-color);
+    padding: 0.5rem 0;
+}
+
+.compare-head.com-head-cont {
+    padding-left: 0px;
+}
+
+.comp-title.sec {
+    background-color: var(--white);
 }

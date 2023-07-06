@@ -44,6 +44,27 @@
     .feature-header {
         width: 100%;
     }
+
+    /*Feature details section*/
+    .feat-details {
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-section {
+        order: 10;
+        width: 100%;
+    }
+    .feature-text-icon {
+        width: 80%;
+    }
+
+    /*three lines of code section*/
+    #three-code-flex {
+        flex-direction: column;
+    }
+    #three-img {
+        width: 100%;
+    }
 }
 
 /*Phones below*/
@@ -65,5 +86,56 @@
     }
     #feature-list {
         gap: 0rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    #herotext-cta {
+        gap: 24px;
+    }
+    #hero {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    /*Feature details section*/
+    .feature-text-icon {
+        gap: 1rem;
+        width: 90%
+    }
+    .check-icon {
+        padding-top: 0.1rem;
+    }
+
+    /*comparison section*/
+    h3 {
+        font-size: 1rem;
+    }
+    .com-head-cont {
+        width: 150px;
+        padding: 0.5rem;
+    }
+    .title {
+        padding: 0.5rem;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .compare-head {
+        width: 100%;
+    }
+    .comp-title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .com-head-cont {
+        text-align: left;
+    }
+    .title {
+        width: 100%;
     }
 }
