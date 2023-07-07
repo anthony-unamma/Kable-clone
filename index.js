@@ -20,9 +20,12 @@ window.addEventListener('scroll', function() {
 const companyDropdownLink = document.querySelector('div.navlink-text');
 let companyDropdown = document.querySelector('.company-dropdown-list')
 
-companyDropdownLink.addEventListener('click', function() {
+companyDropdownLink.addEventListener('mouseenter', function() {
     companyDropdown.classList.toggle('show-dropdown')
     companyDropdown.classList.toggle('hide-dropdown')
 })
 
-
+companyDropdownLink.addEventListener('mouseleave', function() {
+    companyDropdown.classList.toggle('show-dropdown')
+    companyDropdown.classList.toggle('hide-dropdown')
+})
