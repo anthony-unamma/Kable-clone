@@ -14,8 +14,8 @@
 
     <!--Embedding the Plus Jakarta fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 
 
@@ -54,6 +54,29 @@
             
         </div>
         
+    </div>
+
+    <!--Company dropdown list-->
+    <div class="company-dropdown-list hide-dropdown">
+        <div class="container expand-company">   
+            <div class="careers-sect">
+                <a href="#">
+                    <p class="dropdown-title">Careers</p>
+                    <p class="small-p">Interested in fintech? Passionate about APIs? Join
+                        us and let's build something great.
+                    </p>
+                </a>
+            </div>
+
+            <div class="careers-sect">
+                <a href="#">
+                    <p class="dropdown-title">Blog</p>
+                    <p class="small-p">Stay up to date with all the latest news from
+                        Kable.
+                    </p>
+                </a>
+            </div>
+        </div>
     </div>
 
     <!--Hero Section-->
@@ -497,7 +520,7 @@
                     </div>
                 </div>
 
-                <div class="comp-title sec">
+                <div class="comp-title sec last">
                     <div class="title">
                         <p><strong>Implementation time</strong></p>
                     </div>
@@ -524,9 +547,176 @@
     <!--Why Kable section-->
     <section id="why-kable">
         <div class="container">
+            <div id="why-flex-cont">
+                <div class="head-text">
+                    <h2>Why Kable?</h2>
+                    <p>Engineers should build features that make their products
+                        great. Leave infrastructure to us, and focus on what's
+                        most important for your business.
+                    </p>
+                    <p>Save time and scale up with Kable.</p>
+                    <!--insert button-->
+                    <a href="#" class="button">
+                        Learn more
+                    </a>
+                </div>
 
+                <div id="why-grid">
+                    <!--1st grid item-->
+                    <div class="head-text">
+                        <div class="why-grid-icon">
+                            <img src="images/dollar-icon-why-kable.png" alt="dollar icon">
+                        </div>
+                        <h4>Flexible usage-based billing</h4>
+                        <p class="small-p">Optimize revenue and create the perfect
+                             pricing plans for every customer contract
+                            </p>
+                    </div>
+
+                    <!--2nd grid item-->
+                    <div class="head-text">
+                        <div class="why-grid-icon">
+                            <img src="images/better-xp-why-kable.png" alt="dollar icon">
+                        </div>
+                        <h4>Better customer experience</h4>
+                        <p class="small-p">Create a best-in-class customer experience 
+                            by embedding Kable dashboards within your developer portal
+                        </p>
+                    </div>
+
+                    <!--3rd grid item-->
+                    <div class="head-text">
+                        <div class="why-grid-icon">
+                            <img src="images/key-icon-why-kable.png" alt="dollar icon">
+                        </div>
+                        <h4>Manage entitlements</h4>
+                        <p class="small-p">Iterate on product packaging and control access 
+                            to features and endpoints with easy-to-mange customer entitlements
+                        </p>
+                    </div>
+
+                    <!--4th grid item-->
+                    <div class="head-text">
+                        <div class="why-grid-icon">
+                            <img src="images/stopwatch-why-kable.png" alt="dollar icon">
+                        </div>
+                        <h4>Bring your product to market faster</h4>
+                        <p class="small-p">Get up and running with Kable in under 
+                            15 minutes with just <em>three lines</em> of code
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+    
         </div>
-
+    
     </section>
+
+    <!--We're hiring-->
+    <section id="hiring">
+        <div class="container">
+            <div class="head-text hire">
+                <h2>We're hiring!</h2>
+                <p>Want to be a part of something great? Join us on the ground floor.</p>
+                <!--insert button-->
+                <a href="#" class="button">
+                    View open positions
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Schedule onboarding-->
+    <section id="schedule">
+        <div class="container sch-onboard">
+            <div class="head-text">
+                <h2>Schedule Onboarding</h2>
+                <p>We're onboarding customers as quickly as we can. 
+                    Send us a message and we'll get in touch soon.
+                </p>
+                <form id="schedule-form">
+                    <input type="email" placeholder="Enter your email" id="schedule-form-input">
+                    <input type="submit" class="button" value="Get started" id="form-button">
+                </form>
+            </div>
+            <div id="onboard-img-div">
+                <img src="images/sch-onboard.png" id="onboard-img">
+            </div>
+        </div>
+    </section>
+
+    <!--Footer Section-->
+    <footer id="footer">
+        <div class="container foot">
+            <div class="icon-links">
+                <div class="icon-email">
+                    <div>
+                        <a href="#"><img src="images/logo.png" style="width: 200px;" alt="kable's logo"></a>
+                    </div>
+                    <a href="#">
+                        <div class="email-iconlink">
+                            <div class="email-icon">
+                                <img src="images/message-icon.svg">
+                            </div>
+                            <p>contact@kable.io</p>
+                        </div>
+                    </a>
+                    <div id="ycomb">
+                        <p>Backed by</p>
+                        <div><img src="images/ycombinator logo.png" height="38px" alt="YCombinator"></div>
+
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="foot-link">
+                        <a href="#" class="foot-link-header">
+                            <h5>Documentation</h5>
+                        </a>
+                    </div>
+
+                    <div class="foot-link">
+                        <h5>Company</h5>
+                        <a href="#" class="foot-link-menu"><p>Careers</p></a>
+                        <a href="#" class="foot-link-menu"><p>Blog</p></a>
+
+                    </div>
+
+                    <div class="foot-link">
+                        <a href="#" class="foot-link-header">
+                            <h5>Contact</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="line-socialicons">
+                <hr class="hr-line">
+                <div class="sm-icons-copyright">
+                    <div class="copyright-text">
+                        <p class="small-p">©All rights reserved. 
+                            <span class="kable-inc">Kable Inc.</span>
+                        </p>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#">
+                            <img src="images/facebook-icon.svg" class="sm-icons">
+                        </a>
+                        <a href="#">
+                            <img src="images/twitter-icon.svg" class="sm-icons">
+                        </a>
+                        <a href="#">
+                            <img src="images/linkedin-icon.svg" class="sm-icons">
+                        </a>
+                        <a href="#">
+                            <img src="images/instagram-icon.svg" class="sm-icons">
+                        </a>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js" charset="UTF-8"></script>
 </body>
 </html>
