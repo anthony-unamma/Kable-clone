@@ -433,7 +433,7 @@ div.navlink-text {
     font-size: 0.8rem;
     border: none;
     padding-left: 3rem;
-    background-image: url(/images/message-icon.svg);
+    background-image: url(images/message-icon.svg);
     background-repeat: no-repeat;
     background-position: 2%;
     width: 100%;
